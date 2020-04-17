@@ -31,6 +31,14 @@ DB_DATABASE=nombre_BD
 DB_USERNAME=usuario
 DB_PASSWORD=clave
 ```
+- Ejecugar el siguiente comando para generar la clave de laravel
+```
+php artisan key:generate
+```
+- Ejecugar el siguiente comando para generar la clave de jwt
+```
+php artisan jwt:secret
+```
 - Ejecujar migraciones
 ```
 php artisan migrate
@@ -38,5 +46,16 @@ php artisan migrate
 - Ejecujar seeder
 ```
 php artisan db:seed
+```
+- El seeder  creara dos usuarios:
+*Usuario con rol administrador
+```
+email: admin@mail.com
+password: 123456
+```
+*Usuario con rol vendedor
+```
+email: seller@mail.com
+password: 123456
 ```
 - Ya puedes ejecutar el servidor y probar el codigo. 
