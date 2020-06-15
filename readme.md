@@ -8,7 +8,7 @@ Este es el código de la prueba solicitada por konecta. Es un proyecto creado co
 
 Para el correcto funcionamiento del código, se deben realizar los siguientes pasos:
 
-- clorar el repositorio
+- clonar el repositorio
 ```
 git clone https://github.com/anonibox1488/konecta
 ```
